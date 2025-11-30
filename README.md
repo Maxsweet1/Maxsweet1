@@ -1,78 +1,129 @@
-🌐 Greg Thompson-Lowe — Maxsweet1  
-Blockchain Developer in Training • RWA & Escrow • Web3 Learner
+# 🌐 Greg Thompson-Lowe — Smart Contract / Web3 Developer
 
-Solidity · Foundry · Escrow Systems · RWA Tokenization · React (beginner) · Ethereum
+**Smart Contracts · Escrow & RWA Flows · Ethereum · Foundry**
 
----
+I’m a smart contract / Web3 developer transitioning from 20+ years in logistics and operations, now focused on escrow, RWA settlement, and supply-chain–driven contracts.
 
-## 🚀 About Me
+I’m currently open to:
 
-I’m a career-transitioning blockchain developer focusing on **real-world use cases**: escrow systems, agricultural tokenization, and supply-chain DApps.
-
-After 20+ years in route logistics and operations, I started learning Web3 and smart contracts and now spend my time:
-
-- Building **milestone-based escrow** for agricultural exports
-- Prototyping **RWA tokenization flows** based on real supply-chain problems
-- Learning **Solidity + Foundry** through Cyfrin Updraft and hands-on projects
-- Gradually improving my **React/Web3 frontend** skills so people can actually use what I build
-
-Right now I’m focused on:
-- Getting truly comfortable with **Solidity syntax and patterns**
-- Writing better **Foundry tests** (unit + fuzz-style) for my own contracts
-- Turning my projects into a **portfolio that can help me land Web3 work**
+- **Junior Smart Contract / Web3 Developer roles**
+- **Freelance / contract work** on escrow, payments, RWA, and simple DeFi integrations
 
 ---
 
-## 🧠 Technical Focus
+## 🔎 What I Work On
+
+**Core themes:**
+
+- Milestone-based **escrow systems** for real trade flows (agricultural exports, supply chain)
+- **RWA-style settlement**: tokenized claims on work performed or goods delivered
+- Simple **DeFi / payment flows** built on ERC-20 tokens
+- Practical dApps that non-crypto users can actually use
+
+My background in route sales and operations shapes how I design contracts: I care about how money, goods, and responsibility move in the real world, then map that into clean on-chain flows.
+
+---
+
+## 🧠 Skills Snapshot
 
 ### Smart Contracts & Testing
-- Solidity (beginner–intermediate)
-- Foundry (unit tests, basic fuzzing)
-- Escrow & milestone-based payment patterns
-- RWA tokenization mechanics (claims, collateral, settlement)
-- Smart contract security fundamentals (reentrancy, access control, logic bugs)
 
-### RWA / DeFi
-- Milestone-based escrow for agricultural supply chains
-- Basic DeFi concepts (ERC-20 flows, swaps, stablecoins)
-- Ideas around tokenized receivables and settlement for real businesses
+- Solidity (escrow, payout logic, RWA-style flows, basic DeFi patterns)
+- Foundry (unit tests, basic fuzz testing)
+- ERC-20 flows, role-based access control, state-machine style logic
+- Security fundamentals: reentrancy, access control issues, logic bugs
 
-### Frontend & Web3 (Learning)
-- React + TypeScript (beginner)
-- TailwindCSS
-- Basic Web3 integration (MetaMask, simple contract calls)
-- dApp UX focused on being **simple for non-crypto users**
+### RWA / Escrow / Supply Chain
+
+- Milestone-based escrow for agriculture and cross-border trade
+- On-chain tracking of progress, approvals, and payouts
+- Thinking in terms of claims, obligations, and settlement conditions
+
+### Frontend & Web3 Integration
+
+- React + TypeScript (implementing features from specs)
+- TailwindCSS for UI
+- Basic Web3 integration (MetaMask, ethers.js/Wagmi-style flows)
+- UX focused on clear, guided flows for non-technical users
 
 ### Tools
-- Foundry · Remix · VS Code · Git/GitHub
-- Cursor (AI-assisted coding)
-- MetaMask & testnets
+
+- Foundry · Remix · VS Code · Git/GitHub  
+- MetaMask & EVM testnets  
+- AI-assisted workflows: **Cursor**, **Claude Code** (for scaffolding and refactors, followed by manual review and debugging)
 
 ---
 
-## ⭐ Featured Work
+## ⭐ Selected Projects
 
-- **Gulupa / Agricultural Escrow (RWA Prototype)**  
-  Milestone-based escrow contract for agricultural exports. Funds are locked in a stablecoin and released when predefined milestones (harvest, processing, shipment, etc.) are completed. Tested with Foundry and designed as a building block for RWA flows.  
-  _Repo:_ (add link here)
+### DED — Decentralized Education Protocol (Current Work)
 
-- **Asset Loader DApp (Supply Chain / Logistics)**  
-  Smart contract + frontend concept to track loading of route trucks, reduce misloads, and give managers visibility into truck/bay status. Inspired by my real-world logistics background.  
-  _Repo:_ (add link here)
+**Role:** Web3 Developer (contract / project-based)
 
-- **Teach Me Solidity / Teach Me Foundry**  
-  Self-study repos where I practice Solidity syntax, build small focused contracts, and write tests with Foundry to prepare for Cyfrin’s SSCD+ certification.  
-  _Repo:_ (add link here)
+Working on **DED**, a decentralized education protocol for verifiable, peer-to-peer learning.
 
-- **TrustEd (Mentored Frontend Project)**  
-  Worked under a senior Web3 instructor using **Cursor** with React + TypeScript + TailwindCSS to implement and refine frontend pages for a decentralized education dApp. Focused on layout, basic Web3 integration, and making sure the app behaved correctly in demos.  
-  _Repo:_ (add link if public or leave this line out)
+- Implement React + Tailwind components from product and design requirements  
+- Connect frontend flows to existing smart contracts (escrow, reputation, proof-of-learning, etc.) and wallet interactions  
+- Use AI-assisted tools (Cursor, Claude Code) to scaffold implementations, then manually refine, debug, and align behavior with the requested UX  
+- Collaborate directly with the project founder to ensure the dApp is functional and demo-ready
+
+> _Repo:_ add link here when appropriate
 
 ---
 
-## 📚 Ongoing Learning
+### Gulupa Escrow — RWA Escrow Prototype
 
-- **Cyfrin Updraft** – Solidity, Foundry, smart contract security, wallet security  
-- **SSCD+ Prep** – Smart contract security certification track (exploits, fuzzing, testing)
+Smart contract for **milestone-based escrow** in an agricultural export workflow based on real-world fruit exports.
 
-I’m actively looking for **junior smart contract / Web3 roles** and opportunities to work on **RWA, escrow, or supply-chain–focused projects**.
+- Deposits stablecoin funds into escrow for a farmer / producer  
+- Releases payouts only when predefined milestones (e.g., harvest, processing, shipment) are completed  
+- Clear lifecycle: created → funded → milestones completed → **released or refunded**  
+- Tested with Foundry for core flows, failure cases, and access control
+
+> _Repo:_ add link here
+
+---
+
+### Asset Loader — Supply-Chain Smart Contract
+
+Solidity-focused project drawing directly from 20+ years in route logistics.
+
+- Smart contract to track which products are loaded into which truck bays, by which loader, and when  
+- Designed to reduce misloads, increase accountability, and give managers visibility into loading status  
+- Frontend experiments were primarily AI-assisted; the core value is the **Solidity contract and process design**
+
+> _Repo:_ add link here
+
+---
+
+## 🎓 Training & Courses
+
+**Cyfrin Updraft – Solidity Smart Contract Developer Certification Track**
+
+Completed:
+
+- **Solidity 101** – core language, patterns, EVM basics  
+- **Foundry & Advanced Foundry** – unit testing, fuzz-style testing, test-driven workflows  
+- **Blockchain & Web3 Fundamentals**  
+- **Web3 Wallet Basics**  
+- **Advanced Web3 Wallet Security** – wallet models, signing flows, common attack paths and mitigations  
+
+Ongoing:
+
+- **Solidity Smart Contract Developer (SSCD) Certification – In Progress**  
+  Focused on production-grade Solidity, testing with Foundry, gas optimization, and secure smart contract development practices.
+
+---
+
+### 💼 Hiring / Collaboration
+
+If you’re building:
+
+- Escrow or payment rails  
+- RWA or settlement logic tied to real-world goods/services  
+- Simple DeFi integrations on Ethereum / EVM  
+- Decentralized education or reputation systems
+
+…I’m interested in talking — especially where my mix of **on-chain development** and **off-chain operations experience** can actually move the needle.
+
+
